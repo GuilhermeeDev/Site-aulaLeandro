@@ -1,0 +1,249 @@
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 7px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo-inteira {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+}
+
+.titulo {
+    color: #004080;
+    font-size: 28px;
+    margin-left: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.comprar-agora {
+    background-color: rgb(78, 61, 231);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.links > .outros {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: blue;
+    font-size: 18px;
+    margin: 0 15px;
+    transition: color 0.2s ease;
+}
+
+.links .outros:hover {
+    color: #023570;
+}
+
+.comprar-agora:hover {
+    background-color: #023570;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    color: #004080;
+    margin-bottom: 20px;
+}
+
+.container-lateral {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.corpo-1, .corpo-2 {
+    width: 50%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.conteudo p {
+    width: 60%;
+    line-height: 1.8;
+    font-size: 16px;
+    color: #333;
+}
+
+.imagem-painel {
+    width: 40%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.corpo-baixo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.lado-1, .lado-2, .lado-3 {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: 0 auto 20px auto;
+}
+
+.lado-1 {
+    grid-column: 1 / 2;
+}
+
+.lado-2 {
+    grid-column: 2 / 3;
+}
+
+.lado-3 {
+    grid-column: 1 / 2;
+}
+
+/* Rodapé */
+.rodape {
+    background-color: #004080; /* Cor igual ao título principal */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.rodape .formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rodape label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.rodape input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.rodape button {
+    padding: 8px 16px;
+    background-color: #002c59;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.rodape button:hover {
+    background-color: #001f42;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contato p {
+    margin: 5px 0;
+}
+
+.logos {
+    display: flex;
+    flex-direction:row;
+    align-items: flex-end;
+    gap: 40px;
+    margin-left: 20px;
+}
+
+.logos img {
+    width: 100px;
+    transition: transform 0.3s ease;
+}
+
+.logos img:hover {
+    transform: scale(1.1);
+}
+
+.logos .logo-grande{
+    width: 20%;
+    height: 20%;
+}
+
+.button-negocio{
+    padding: 8px 16px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 5px;}
+
+.button-negocio:hover {
+    background-color: #023570;
+}
+
+.venda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 auto 20px auto;
+}
+
+.imagem-venda{
+height: 255px;
+width: 500px;
+border: none;
+border-radius: 10px;    
+}
